@@ -3,126 +3,126 @@ madeye推出了AEAD加密:[github](https://github.com/shadowsocks/shadowsocks-li
 
 ## aes-256-cfb
 
-Server listening on TCP port 8388
+> Server listening on TCP port 8388
 
-TCP window size: 85.3 KByte (default)
+> TCP window size: 85.3 KByte (default)
 
-Client connecting to 127.0.0.1, TCP port 8387
+> Client connecting to 127.0.0.1, TCP port 8387
 
-TCP window size: 3.76 MByte (default)
+> TCP window size: 3.76 MByte (default)
 
-[3] local 127.0.0.1 port 40106 connected with 127.0.0.1 port 8387
+> [3] local 127.0.0.1 port 40106 connected with 127.0.0.1 port 8387
 
-[4] local 127.0.0.1 port 8388 connected with 127.0.0.1 port 54382
+> [4] local 127.0.0.1 port 8388 connected with 127.0.0.1 port 54382
 
-[ID] Interval       Transfer     Bandwidth
+> [ID] Interval       Transfer     Bandwidth
 
-[3]  0.0-10.0 sec  1.55 GBytes  1.33 Gbits/sec
+> [3]  0.0-10.0 sec  1.55 GBytes  1.33 Gbits/sec
 
-Test Finished
+> Test Finished
 
-[ID] Interval       Transfer     Bandwidth
+> [ID] Interval       Transfer     Bandwidth
 
-[4]  0.0-10.0 sec  1.53 GBytes  1.31 Gbits/sec
+> [4]  0.0-10.0 sec  1.53 GBytes  1.31 Gbits/sec
 
 ## aes-256-gcm
 
-Server listening on TCP port 8388
+> Server listening on TCP port 8388
 
-TCP window size: 85.3 KByte (default)
+> TCP window size: 85.3 KByte (default)
 
-Client connecting to 127.0.0.1, TCP port 8387
+> Client connecting to 127.0.0.1, TCP port 8387
 
-TCP window size: 3.76 MByte (default)
+> TCP window size: 3.76 MByte (default)
 
-[3] local 127.0.0.1 port 40154 connected with 127.0.0.1 port 8387
+> [3] local 127.0.0.1 port 40154 connected with 127.0.0.1 port 8387
 
-[4] local 127.0.0.1 port 8388 connected with 127.0.0.1 port 54430
+> [4] local 127.0.0.1 port 8388 connected with 127.0.0.1 port 54430
 
-[ID] Interval       Transfer     Bandwidth
+> [ID] Interval       Transfer     Bandwidth
 
-[3]  0.0-10.0 sec   986 MBytes   827 Mbits/sec
+> [3]  0.0-10.0 sec   986 MBytes   827 Mbits/sec
 
-Test Finished
+> Test Finished
 
-[ID] Interval       Transfer     Bandwidth
+> [ID] Interval       Transfer     Bandwidth
 
-[4]  0.0-10.0 sec   971 MBytes   813 Mbits/sec
+> [4]  0.0-10.0 sec   971 MBytes   813 Mbits/sec
 
 ## chacha20-ietf
 
-Server listening on TCP port 8388
+> Server listening on TCP port 8388
 
-TCP window size: 85.3 KByte (default)
+> TCP window size: 85.3 KByte (default)
 
-Client connecting to 127.0.0.1, TCP port 8387
+> Client connecting to 127.0.0.1, TCP port 8387
 
-TCP window size: 3.76 MByte (default)
+> TCP window size: 3.76 MByte (default)
 
-[3] local 127.0.0.1 port 40224 connected with 127.0.0.1 port 8387
+> [3] local 127.0.0.1 port 40224 connected with 127.0.0.1 port 8387
 
-[4] local 127.0.0.1 port 8388 connected with 127.0.0.1 port 54500
+> [4] local 127.0.0.1 port 8388 connected with 127.0.0.1 port 54500
 
-[ID] Interval       Transfer     Bandwidth
+> [ID] Interval       Transfer     Bandwidth
 
-[3]  0.0-10.0 sec  2.33 GBytes  2.00 Gbits/sec
+> [3]  0.0-10.0 sec  2.33 GBytes  2.00 Gbits/sec
 
-Test Finished
+> Test Finished
 
-[ID] Interval       Transfer     Bandwidth
+> [ID] Interval       Transfer     Bandwidth
 
-[4]  0.0-10.0 sec  2.32 GBytes  1.99 Gbits/sec
+> [4]  0.0-10.0 sec  2.32 GBytes  1.99 Gbits/sec
 
 ## chacha20
 
 
-Server listening on TCP port 8388
+> Server listening on TCP port 8388
 
-TCP window size: 85.3 KByte (default)
+> TCP window size: 85.3 KByte (default)
 
-Client connecting to 127.0.0.1, TCP port 8387
+> Client connecting to 127.0.0.1, TCP port 8387
 
-TCP window size: 3.76 MByte (default)
+> TCP window size: 3.76 MByte (default)
 
-[3] local 127.0.0.1 port 40698 connected with 127.0.0.1 port 8387
+> [3] local 127.0.0.1 port 40698 connected with 127.0.0.1 port 8387
 
-[4] local 127.0.0.1 port 8388 connected with 127.0.0.1 port 54974
+> [4] local 127.0.0.1 port 8388 connected with 127.0.0.1 port 54974
 
-[ID] Interval       Transfer     Bandwidth
+> [ID] Interval       Transfer     Bandwidth
 
-[3]  0.0-10.0 sec  2.30 GBytes  1.97 Gbits/sec
+> [3]  0.0-10.0 sec  2.30 GBytes  1.97 Gbits/sec
 
-Test Finished
+> Test Finished
 
 
-[ID] Interval       Transfer     Bandwidth
+> [ID] Interval       Transfer     Bandwidth
 
-[4]  0.0-10.0 sec  2.29 GBytes  1.96 Gbits/sec
+> [4]  0.0-10.0 sec  2.29 GBytes  1.96 Gbits/sec
 
 ## chacha20-ietf-poly1305
 
-Server listening on TCP port 8388
+> Server listening on TCP port 8388
 
-CP window size: 85.3 KByte (default)
+> CP window size: 85.3 KByte (default)
 
-[4] local 127.0.0.1 port 8388 connected with 127.0.0.1 port 55372
+> [4] local 127.0.0.1 port 8388 connected with 127.0.0.1 port 55372
 
-Client connecting to 127.0.0.1, TCP port 8387
+> Client connecting to 127.0.0.1, TCP port 8387
 
-TCP window size: 3.76 MByte (default)
+> TCP window size: 3.76 MByte (default)
 
-[3] local 127.0.0.1 port 41096 connected with 127.0.0.1 port 8387
+> [3] local 127.0.0.1 port 41096 connected with 127.0.0.1 port 8387
 
-[ID] Interval       Transfer     Bandwidth
+> [ID] Interval       Transfer     Bandwidth
 
 
-[3]  0.0-10.0 sec  1.55 GBytes  1.33 Gbits/sec
+> [3]  0.0-10.0 sec  1.55 GBytes  1.33 Gbits/sec
 
-Test Finished
+> Test Finished
 
-[ID] Interval       Transfer     Bandwidth
+> [ID] Interval       Transfer     Bandwidth
 
-[4]  0.0-10.0 sec  1.54 GBytes  1.32 Gbits/sec
+> [4]  0.0-10.0 sec  1.54 GBytes  1.32 Gbits/sec
 
 ![](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
