@@ -8,14 +8,20 @@ PORT=22
 eval $@
 
 ssh root@${ADDRESS} -p ${PORT} << EOF
+
 exec >> $LOGFILE 2>&1
+
+echo '' > $LOGFILE
+
 dnf update -y
 dnf install $PKGNAME -y
+
 mkdir -p /etc/systemd/system/${PKGNAME}.service.d
 cd       /etc/systemd/system/${PKGNAME}.service.d
 touch ${PKGNAME}.conf
 echo "[service]" > ${PKGNAME}.conf
 sed -i "1 a Restart=on-failure" ${PKGNAME}.conf
+
 systemctl daemon-reload
 systemctl enable $PKGNAME
 systemctl start  $PKGNAME
