@@ -10,7 +10,10 @@ ssh root@${ADDRESS} -p ${PORT} << EOF
 exec >> $LOGFILE 2>&1
 dnf update -y
 dnf install httpd -y
-sed -i "21 i Restart=on-failure" /usr/lib/systemd/system/httpd.service
+mkdir -p /etc/systemd/system/httpd.service.d
+touch httpd.conf
+echo "[service]" > httpd.conf
+sed "1 a Restart=on-failure" httpd.conf
 systemctl daemon-reload
 systemctl enable httpd
 systemctl start httpd
