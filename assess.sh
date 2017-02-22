@@ -1,11 +1,15 @@
 #!/bin/bash
 
 LOGFILE=/tmp/access.log
+ADDRESS=121.42.26.187
+PORT=22
 
-exec  >> $LOGFILE 2>&1
-#cat $LOGFILE &
-ssh root@121.42.26.187 -p 2333 << EOF
-touch 1
+eval $@
+
+ssh root@${ADDRESS} -p ${PORT} << EOF
+exec >> $LOGFILE 2>&1
 dnf update -y
-dnf install screenfetch -y
+dnf install httpd -y
 EOF
+
+scp -P $PORT root@${ADDRESS}:${LOGFILE} ./
